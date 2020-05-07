@@ -1,24 +1,21 @@
-# ie-test
+# Readme
+A sample repository for reproducing the vuetify problems on IE11.
+
+## Dependencies
+* Node version: 12.10.0
+* npm version: 6.14.5
+* @vue/cli version: 4.3.1
 
 ## Project setup
 ```
-npm install
-```
+vue create ie-test // -> select default option
 
-### Compiles and hot-reloads for development
-```
+cd ie-test
+
+vue add vuetify // -> select default option
+
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Issues
+See [Vuetify issue 11008](https://github.com/vuetifyjs/vuetify/issues/11008).
